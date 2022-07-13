@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Lista de Tarefas</title>
+    </head>
+
+    <body>            
+        <h2>Lista de Tarefas</h2>
+
+        <div>
+            <input type="text" id="textBox" placeholder="Tarefa">
+            <button id="addButton" class="add">✚</button>
+
+            <select id="dropDownMenu" hidden>
+                <option>-- Seleciona uma opção --</option>
+                <option>Marcar todas as tarefas</option>
+                <option>Desmarcar todas as tarefas</option>
+                <option>Limpar a lista de tarefas</option>
+            </select>
+
+        </div>
+        
+        <ul id="taskList">
+
+        </ul>
+
+        <script src="assets/js/script.js"></script>               
+    </body>
+</html>

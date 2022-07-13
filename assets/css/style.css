@@ -1,0 +1,24 @@
+body{
+    background-color: #002;
+    color: #FFF;
+    font: 14pt Tahoma, sans-serif;
+}
+
+button.remove{
+    position: absolute;
+    left: 4px
+}
+
+ul li.notCompleted{
+    list-style-type: '☐';
+    cursor: pointer;
+    text-indent: 10px;
+}
+
+ul li.completed{
+    list-style-type: '☑';
+    cursor: pointer;
+    text-indent: 10px;
+    color: #888;
+    text-decoration: line-through;
+}
